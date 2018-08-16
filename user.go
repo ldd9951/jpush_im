@@ -145,7 +145,3 @@ func (c *Client) Nodisturb(userName string, single Disturb, group Disturb, globa
 	_, err = c.request("POST", url, bytes.NewBuffer(body))
 	return
 }
-
-
-
-
